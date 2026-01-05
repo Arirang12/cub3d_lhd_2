@@ -13,7 +13,7 @@
 #ifndef CUB_H
 # define CUB_H
 
-# include "mlx.h"
+# include "../minilibx-linux/mlx.h"
 # include <X11/X.h>
 # include <X11/keysym.h>
 # include <fcntl.h>
@@ -23,7 +23,7 @@
 # include <stdlib.h>
 # include <unistd.h>
 
-# define MINI_TILE 20
+# define MINI_TILE 10
 # define MINI_X 10
 # define MINI_Y 10
 # ifndef BUFFER_SIZE
@@ -38,10 +38,10 @@
 # define KEY_ESC 65307
 # define ROT_SPEED 0.03
 # define MOVE_SPEED 0.09
-# define FOV_DEG 50
-# define TILE_SIZE 100
-# define WIDTH 2000
-# define HEIGHT 2000
+# define FOV_DEG 67
+//# define TILE_SIZE 100
+# define WIDTH 1000
+# define HEIGHT 800
 # define NO 0
 # define SO 1
 # define WE 2
